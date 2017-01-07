@@ -132,7 +132,7 @@ function EnglishProvider($translateProvider) {
         LINE_TX_DETAILS_HASH: 'Хеш',
         LINE_TX_DETAILS_DEC_MESS: 'Расшифровать сообщение',
         LINE_TX_DETAILS_MOS_ATTACHED: 'Припрепленные мозаики',
-        LINE_TX_DETAILS_LEVY_TYPE_1: 'Constant', // перевести
+        LINE_TX_DETAILS_LEVY_TYPE_1: 'Постоянная', // перевести (постояннство или константа в учебниках)
         LINE_TX_DETAILS_LEVY_TYPE_2: 'Процентах',
         LINE_TX_DETAILS_ISSUER: 'Эмитент',
         LINE_TX_DETAILS_MULTISIG_FEE: 'Комиссия мультиподписи',
@@ -154,18 +154,18 @@ function EnglishProvider($translateProvider) {
         LINE_TX_DETAILS_MULTISIG_AFFECTED: 'Связанные счета',
 
         // IMPORTANCE MODULE
-        IMPORTANCE_TRANSFER_NAME: 'Importance transfer transaction',
-        IMPORTANCE_TRANSFER_MULTISIG_NAME: 'Multisignature importance transfer transaction',
+        IMPORTANCE_TRANSFER_NAME: 'Важность передаваемой транзакции',
+        IMPORTANCE_TRANSFER_MULTISIG_NAME: 'Мультиподпись важности передаваемой транзакции',
         IMPORTANCE_TRANSFER_MODE: 'Режим',
         IMPORTANCE_TRANSFER_MODE_1: 'Активирован',
         IMPORTANCE_TRANSFER_MODE_2: 'Дезактивирован',
         IMPORTANCE_TRANSFER_TITLE: 'Управление делегированнием аккаунта',
-        IMPORTANCE_TRANSFER_MULTISIGNATURE_TITLE: 'Manage delegated account of multisignature accounts',
+        IMPORTANCE_TRANSFER_MULTISIGNATURE_TITLE: 'Управление делегируемым аккаунтом с мультиподписями',
         IMPORTANCE_TRANSFER_CUSTOM_KEY: 'Использовать другой публичный ключ',
         IMPORTANCE_TRANSFER_MODE_SELECT: 'Выбрать режим',
         IMPORTANCE_TRANSFER_REMOTE_ACCOUNT: 'Удаленный аккаунт',
         IMPORTANCE_TRANSFER_REMOTE_PUBLIC: 'Удаленный публичный ключ',
-        IMPORTANCE_TRANSFER_INFO_PART_1: 'Once an importance transaction has been included in a block it needs 6 hours to become active. After that, you\'ll have access to node selection and start/stop commands.',
+        IMPORTANCE_TRANSFER_INFO_PART_1: 'После того, как важная транзакция была помещена в блок, должно пройти 6 часов до момента активации. После этого появиться возможность выбора ноды и старт/стоп комманды',
         IMPORTANCE_TRANSFER_INFO_PART_2: 'Make sure you do not have a delegated account activated already (if it is an imported account). If so you can use the old delegated public key to deactivate (if necessary).',
         IMPORTANCE_TRANSFER_INFO_PART_MULTISIG: 'For multisignature accounts only the cosignatory that initiated the importance transfer transaction can start and stop harvesting. If any other cosignatory want to take back power on harvesting, he just need to deactivate and reactivate the remote status.',
         IMPORTANCE_TRANSFER_NO_BLOCKS_HARVESTED: 'Нет сгенерированных блоков',
@@ -504,24 +504,24 @@ function EnglishProvider($translateProvider) {
         FAQ_ANSWER_7_5: 'Apostille services funds:',
 
         // FORM RELATED
-        FORM_PASSWORD_FIELD_PLACEHOLDER: 'Введите пароль или кодовую фразу от кошелька',
-        FORM_WALLET_NAME_FIELD_PLACEHOLDER: 'Имя кошелька',
-        FORM_SIGNUP_PASSWORD_FIELD_PLACEHOLDER: 'Пароль',
-        FORM_CONFIRM_PASSWORD_FIELD_PLACEHOLDER: 'Подтвердите Ваш пароль',
-        FORM_PASSPHRASE_FIELD_PLACEHOLDER: 'Кодовая фраза',
-        FORM_CONFIRM_PASSPHRASE_FIELD_PLACEHOLDER: 'Подтвердите Вашу кодовую фразу',
-        FORM_ADDRESS_FIELD_PLACEHOLDER: 'Адресс аккаунта',
-        FORM_PRIVATE_KEY_FIELD_PLACEHOLDER: 'Привантный ключ',
-        FORM_SIDE_BTN_BALANCE: 'Баланс',
+        FORM_PASSWORD_FIELD_PLACEHOLDER: 'Enter your wallet password or passphrase',
+        FORM_WALLET_NAME_FIELD_PLACEHOLDER: 'Wallet name',
+        FORM_SIGNUP_PASSWORD_FIELD_PLACEHOLDER: 'Password',
+        FORM_CONFIRM_PASSWORD_FIELD_PLACEHOLDER: 'Confirm your password',
+        FORM_PASSPHRASE_FIELD_PLACEHOLDER: 'Passphrase',
+        FORM_CONFIRM_PASSPHRASE_FIELD_PLACEHOLDER: 'Confirm your passphrase',
+        FORM_ADDRESS_FIELD_PLACEHOLDER: 'Account address',
+        FORM_PRIVATE_KEY_FIELD_PLACEHOLDER: 'Private key',
+        FORM_SIDE_BTN_BALANCE: 'Balance',
         FORM_SIDE_BTN_PAY_TO: 'Pay to',
         FORM_SIDE_BTN_TX_FEE: 'Transaction fee',
         FORM_SIDE_BTN_RENTAL_FEE: 'Rental fee',
         FORM_SIDE_BTN_LEVY_FEE: 'Levy fee',
-        FORM_RECIPIENT_PLACEHOLDER: 'Адрес получателя или @alias',
-        FORM_INVOICE_RECIPIENT_PLACEHOLDER: 'Адрес получателя',
+        FORM_RECIPIENT_PLACEHOLDER: 'Recipient address or @alias',
+        FORM_INVOICE_RECIPIENT_PLACEHOLDER: 'Recipient address',
         FORM_SIDE_BTN_ALIAS_OF: 'Alias of',
-        FORM_MESSAGE_PLACEHOLDER: 'Сообщение',
-        FORM_MOSAIC_NAME_PLACEHOLDER: 'Имя Mosaic'
+        FORM_MESSAGE_PLACEHOLDER: 'Message',
+        FORM_MOSAIC_NAME_PLACEHOLDER: 'Mosaic name'
     });
 
 }
